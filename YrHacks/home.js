@@ -1,3 +1,4 @@
+// function to save student info to local storage 
 function saveStudentInfo() {
     const preferredName = document.getElementById('preferredName').value;
     const pronouns = document.getElementById('pronouns').value;
@@ -16,7 +17,6 @@ function saveStudentInfo() {
     studentsData.push(studentInfo);
     localStorage.setItem('studentsData', JSON.stringify(studentsData));
     window.location.href = "home.html";
-
 }
 
 //Parsing the array into 
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
+// checking data and displaying info when studentDropdown is selected (the dropdown thingy)
 document.addEventListener('DOMContentLoaded', function () {
     const studentDropdown = document.getElementById('students');
     const studentInfoDiv = document.getElementById('studentInfoDiv');
@@ -56,12 +56,11 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     }
-
     studentDropdown.addEventListener('change', displayStudentInfoDiv);
-
     displayStudentInfoDiv();
 });
 
+// displays the content or hides the old ones
 document.addEventListener('DOMContentLoaded', function () {
     const studentDropdown = document.getElementById('studentDropdown');
     const studentInfoDiv = document.getElementById('studentInfoDiv');
@@ -77,13 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
     displayStudentInfoDiv();
 });
 
-
-
-
-
-
-
-
+// Creates a new account given username and password
 function addAccount() {
     const usernameInput = document.getElementsByName("username-input")[0].value;
     const passwordInput = document.getElementsByName('password-input')[0].value;
@@ -107,7 +100,7 @@ function addAccount() {
     localStorage.setItem('positions', JSON.stringify(positions));*/
 }
 
-
+//checks if the account that the user logs in with is valud
 function verifyAccount() {
     usernameInput = document.getElementsByName('loginUsername-input')[0].value;
     for (let i = 0; i < userNames.length - 1; i++) {
