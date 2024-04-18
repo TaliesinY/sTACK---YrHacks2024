@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(34, 33, 33);
+    background-image: url(https://wallpapercave.com/wp/wp2757874.gif);
+}
+
+.header {
+    display: flex;
+    color: rgb(85, 47, 47);
+    justify-content: space-between;
+}
+
+.loginBG {
+    background-color: rgb(46, 47, 57);
+    border-radius: 15px;
+    width: 50vw;
+    margin: auto;
+    height: 60vh;
+    margin-top: 50px;
+    text-align: center;
+    overflow: auto;
+}
+
+.tPageBG {
+    background-color: rgb(46, 47, 57);
+    border-radius: 15px;
+    width: 75vw;
+    margin: auto;
+    height: 75vh;
+    margin-top: 50px;
+    text-align: center;
+    overflow: auto;
+}
+
+.loginInfo {
+    width: 75%;
+    margin: auto;
+    overflow: auto;
+}
+
+.visit:link {
+    text-decoration: none;
+}
+
+.visit:visited {
+    text-decoration: none;
+}
+
+.visit:hover {
+    text-decoration: none;
+}
+
+.visit:active {
+    text-decoration: none;
+}
+
+.buttonBG {
+    background-color: rgb(46, 47, 57);
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+.logoBG {
+    background-image: linear-gradient(to left, rgb(24, 21, 21), rgb(240, 54, 55));
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    padding-right: 3px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 2px;
+    padding-top: 2px;
+}
+
+.titleText {
+    color: rgb(213, 199, 199);
+    font-size: 500%;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+
+.headerButton {
+    margin-top: 2%;
+    color: rgb(240, 54, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 175%;
+    background-color: transparent;
+}
+
+.mainDescription {
+    align-items: center;
+    text-align: center;
+}
+
+.descriptionText1 {
+    color: rgb(240, 54, 56);
+    font-size: 96px;
+}
+
+.descriptionText2 {
+    color: rgb(240, 54, 56);
+    font-size: xx-large;
+}
+
+.moreDescription {
+    color: rgb(240, 54, 56);
+    font-size: large;
+    text-align: left;
+}
+
+#studentInfoDiv {
+    color: rgb(240, 54, 56);
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+}

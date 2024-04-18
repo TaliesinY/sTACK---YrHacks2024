@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sTACK</title>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="icon" href="favicon.png" type="image/icon" />
+    <script src="home.js"></script>
+
+    <title>sTACK</title>
+    <style>
+        /* Style for the larger bio textarea */
+        #textbox5 {
+            width: 80%;
+            height: 100px;
+            resize: vertical;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="logoBG">
+            <a href="home.html" class="titleText visit">sTACK</a>
+            <img src="favicon.png" alt="sTACK logo" class="logo">
+        </div>
+
+        <div class="loginBG">
+            <h1 style="color: rgb(240, 54, 56);">Student Information</h1>
+            <p class="loginInfo" style="color: rgb(240, 54, 56); margin-bottom:20px;"><strong>Welcome to the Student
+                    Information page! Here, students can provide essential details for teachers to better understand
+                    their learning needs and preferences. From academic interests to extracurricular activities, this
+                    page allows students to share valuable insights, enabling teachers to tailor their support and
+                    guidance for a more personalized learning experience.</strong></p>
+                    <form id="studentForm">
+                        <input type="text" id="preferredName" placeholder="Preferred Name"><br><br>
+                        <input type="text" id="pronouns" placeholder="Pronouns"><br><br>
+                        <input type="text" id="favoriteSubject" placeholder="Favorite Subject"><br><br>
+                        <textarea id="bio" placeholder="Bio"></textarea><br><br>
+                        <textarea id="comments" placeholder="Comments for Teacher"></textarea><br><br>
+                        <button type="button" onclick="saveStudentInfo()">Save</button>
+                    </form>
+        </div>
+
+</body>
+
+</html>

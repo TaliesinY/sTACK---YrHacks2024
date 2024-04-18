@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sTACK</title>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <link rel="icon" href="favicon.png" type="image/icon" />
+  <script src="home.js"></script>
+  <title>sTACK</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logoBG">
+      <a href="home.html" class="titleText visit">sTACK</a>
+      <img src="favicon.png" alt="sTACK logo" class="logo">
+    </div>
+  </div>
+
+  <div class="loginBG">
+    <h1 style="color: rgb(240, 54, 56);
+          ">Sign up</h1>
+    <form action="home.html" method="get">
+      <input type="text" name="username-input" placeholder="Username" />
+      <input type="password" name="password-input" placeholder="Password" />
+      <select type="text" name="position-input" placeholder="Position">
+        <option value="teacher">Teacher</option>
+        <option value="student">Student</option>
+      </select>
+      <button onclick="addAccount()">Submit</button>
+    </form>
+    <h1 id="result"></h1>
+    <p class="loginInfo" style="color: rgb(240, 54, 56);"><strong>Get started on your educational journey by creating
+        your personalized student profile! Sign up now to unlock a world of customization, where you can showcase your
+        interests, accomplishments, and aspirations. Join our community and let your profile shine for teachers to
+        discover and connect with you.</strong></p>
+  </div>
+  <script> scr = "home.js"</script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sTACK</title>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <link rel="icon" href="favicon.png" type="image/icon" />
+  <script src="home.js"></script>
+  <title>sTACK</title>
+</head>
+
+<body>
+  <div>
+    <div class="logoBG">
+      <a href="home.html" class="titleText visit">sTACK</a>
+      <img src="favicon.png" alt="sTACK logo" class="logo">
+    </div>
+    <div class="loginBG">
+      <h1 style="color: rgb(240, 54, 56);">Teacher Log In</h1>
+      <form action="teacherPage.html" method="get">
+        <input type="text" name="loginUsername-input" placeholder="Username" />
+        <input type="password" name="loginPassword-input" placeholder="Password" />
+        <button onclick="verifyAccount()">Submit</button>
+      </form>
+      <h1 style="color: rgb(240, 54, 56);">Student Log In</h1>
+      <form action="studentPage.html" method="get">
+        <input type="text" name="loginUsername-input" placeholder="Username" />
+        <input type="password" name="loginPassword-input" placeholder="Password" />
+        <button onclick="verifyAccount()">Submit</button>
+      </form>
+      <br>
+      <p class="loginInfo" style="color: rgb(240, 54, 56);"><strong>Welcome to our profile portal! Here,
+          students can log in to personalize their profiles, showcasing their interests, achievements, and more.
+          Teachers can view these profiles to better understand each student's unique strengths and passions,
+          fostering a more personalized learning experience.</strong></p>
+    </div>
+    <script>scr = "home.js"</script>
+</body>
+
+</html>
